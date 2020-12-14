@@ -49,7 +49,7 @@ jQuery.noConflict();
     // iOS端末でz-indexがおかしくなる部分のfix
     document.head.insertAdjacentHTML('beforeend','<style>.forms-editor-inner-gaia, .forms-textarea-gaia {-webkit-transform: none;}</style>')
     // iOS SEの端末でテーブル開閉のタブが見えにくいため、対応
-    document.head.insertAdjacentHTML('beforeend', '<style>@media (max-width: 320px).goog-tab { padding: 12px 6px 10px 6px; } </style>')
+    document.head.insertAdjacentHTML('beforeend', '<style>@media (max-width: 327px).goog-tab { padding: 12px 6px 10px 6px; } </style>')
 
     setSubtableToggleOnLabel()
 
